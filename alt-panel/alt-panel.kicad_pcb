@@ -78,19 +78,19 @@
 
   (footprint "diy-nabra:Vol" (layer "F.Cu")
     (tedit 0) (tstamp 27df9fa1-a4b0-4277-9b33-99fc7f662748)
-    (at 22.5 93.5)
+    (at 22.5 94.25)
     (attr through_hole)
     (fp_text reference "REF**" (at 0 -0.5 unlocked) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
-      (tstamp 0177b717-8f7d-4b62-97bb-d5eac4a4019b)
+      (tstamp f78b51ec-b057-4c80-95af-017792ff54ca)
     )
     (fp_text value "Vol" (at 0 1 unlocked) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
-      (tstamp 4c8271da-5f28-48b1-9ffd-6c5bda1e5306)
+      (tstamp 98b016b7-5229-40af-8139-77641cf5fb03)
     )
-    (fp_line (start -4.9 1.75) (end 3.7 1.75) (layer "F.SilkS") (width 0.5) (tstamp a0d22926-6b48-4ebe-8fe0-7624d7c060d4))
-    (fp_line (start 3.7 1.75) (end 3.7 -2.35) (layer "F.SilkS") (width 0.5) (tstamp c0e9822c-f122-45d0-9c6c-caa0a3baec9c))
-    (fp_line (start 3.7 -2.35) (end -5 1.75) (layer "F.SilkS") (width 0.5) (tstamp fb8943af-3beb-4eed-93b7-e32a8c82237d))
+    (fp_line (start -4.5 1.25) (end 3.5 1.25) (layer "F.SilkS") (width 0.5) (tstamp 313de51d-69d1-4606-bfc6-4a5ad8883c07))
+    (fp_line (start 3.5 -2.85) (end -4.5 1.25) (layer "F.SilkS") (width 0.5) (tstamp 91202430-1e8f-4b9f-a32b-4ccff8109134))
+    (fp_line (start 3.5 1.25) (end 3.5 -2.85) (layer "F.SilkS") (width 0.5) (tstamp ce10aa2e-ab97-4d1f-a433-aa894f030407))
   )
 
   (footprint "diy-nabra:Star" (layer "F.Cu")
@@ -195,7 +195,7 @@
 
   (footprint "diy-nabra:R" (layer "F.Cu")
     (tedit 0) (tstamp 83bbdb87-3dc1-40f5-bf5e-3bb0f8dfc548)
-    (at 42.0625 126.75)
+    (at 42.0625 126.4375)
     (attr through_hole)
     (fp_text reference "REF**" (at 0 -0.5 unlocked) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -293,7 +293,7 @@
 
   (footprint "diy-nabra:U" (layer "F.Cu")
     (tedit 0) (tstamp 9182484b-068e-4ce4-bc1c-fd9c0d48bc42)
-    (at 30.0625 126.75)
+    (at 30.0625 126.4375)
     (attr through_hole)
     (fp_text reference "REF**" (at 0 -0.5 unlocked) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -315,7 +315,7 @@
 
   (footprint "diy-nabra:E" (layer "F.Cu")
     (tedit 0) (tstamp 91dda16f-f6ba-47f8-b9ff-bca5dbff204d)
-    (at 38.3125 126.75)
+    (at 38.3125 126.4375)
     (attr through_hole)
     (fp_text reference "REF**" (at 0 -0.5 unlocked) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -339,19 +339,19 @@
 
   (footprint "diy-nabra:Vol" (layer "F.Cu")
     (tedit 0) (tstamp 95e9289c-4aa1-4786-a363-ca5c09414d2d)
-    (at 22.5 51.5)
+    (at 22.5 52.25)
     (attr through_hole)
     (fp_text reference "REF**" (at 0 -0.5 unlocked) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
-      (tstamp c1c6323f-607c-4d3e-a370-4a0fa8f17adb)
+      (tstamp c464e096-a920-4a0b-912f-e9486e3ab829)
     )
     (fp_text value "Vol" (at 0 1 unlocked) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
-      (tstamp a16e5a47-0ef0-4d59-8cdc-a916129b2e9a)
+      (tstamp c217ec67-9c9e-4a36-81ea-2de86fbed7ed)
     )
-    (fp_line (start 3.7 1.75) (end 3.7 -2.35) (layer "F.SilkS") (width 0.5) (tstamp 37855023-1391-4a46-a8e9-10be7d303c47))
-    (fp_line (start 3.7 -2.35) (end -5 1.75) (layer "F.SilkS") (width 0.5) (tstamp c88efbab-df65-4a67-afcb-07edd5c10b5a))
-    (fp_line (start -4.9 1.75) (end 3.7 1.75) (layer "F.SilkS") (width 0.5) (tstamp e7b33308-4a3a-47d9-9e6f-8ded0d75ac0d))
+    (fp_line (start 3.5 1.25) (end 3.5 -2.85) (layer "F.SilkS") (width 0.5) (tstamp 4bdb5017-172a-4948-8852-65c131c081c0))
+    (fp_line (start 3.5 -2.85) (end -4.5 1.25) (layer "F.SilkS") (width 0.5) (tstamp d279c0b4-6ea3-466e-a429-c59bdf4e923a))
+    (fp_line (start -4.5 1.25) (end 3.5 1.25) (layer "F.SilkS") (width 0.5) (tstamp de6412d8-2461-48af-add3-5b9bec6c294b))
   )
 
   (footprint "diy-nabra:Freq" (layer "F.Cu")
@@ -376,7 +376,7 @@
 
   (footprint "diy-nabra:B" (layer "F.Cu")
     (tedit 0) (tstamp 9e539c59-6346-4901-bd6a-7dc90968b8dc)
-    (at 34.3125 126.75)
+    (at 34.3125 126.4375)
     (attr through_hole)
     (fp_text reference "REF**" (at 0 -0.5 unlocked) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -492,7 +492,7 @@
 
   (footprint "diy-nabra:D" (layer "F.Cu")
     (tedit 0) (tstamp d751be33-bc96-4cde-8cd7-54ee5cf97ea0)
-    (at 26.0625 126.75)
+    (at 26.0625 126.4375)
     (attr through_hole)
     (fp_text reference "REF**" (at 0 -0.5 unlocked) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -2349,7 +2349,25 @@
     (format (units 3) (units_format 1) (precision 4))
     (style (thickness 0.15) (arrow_length 1.27) (text_position_mode 0) (extension_height 0.58642) (extension_offset 0.5) keep_text_aligned)
   )
+  (dimension (type aligned) (layer "User.5") (tstamp 7cbd51b6-64a2-43f6-bb81-85ece85128b8)
+    (pts (xy 26.0625 126.4375) (xy 26.0625 128.5))
+    (height 2.0625)
+    (gr_text "2.0625 mm" (at 22.85 127.46875 90) (layer "User.5") (tstamp 4f6e4008-522e-4305-b2d9-19f683d3212e)
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (format (units 3) (units_format 1) (precision 4))
+    (style (thickness 0.1) (arrow_length 1.27) (text_position_mode 0) (extension_height 0.58642) (extension_offset 0.5) keep_text_aligned)
+  )
 
+  (group "" (id 0d563b23-814b-4728-b3a5-325349d469fb)
+    (members
+      83bbdb87-3dc1-40f5-bf5e-3bb0f8dfc548
+      9182484b-068e-4ce4-bc1c-fd9c0d48bc42
+      91dda16f-f6ba-47f8-b9ff-bca5dbff204d
+      9e539c59-6346-4901-bd6a-7dc90968b8dc
+      d751be33-bc96-4cde-8cd7-54ee5cf97ea0
+    )
+  )
   (group "" (id df2dbb8d-2e52-479c-9aa7-c540bfef44bb)
     (members
       0016194a-fa48-4c63-b134-f938bcb2a511
