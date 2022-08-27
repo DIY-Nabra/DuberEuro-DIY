@@ -193,27 +193,6 @@
     (fp_line (start -2.45 2.4) (end 2.55 2.4) (layer "F.SilkS") (width 0.35) (tstamp e0b7f899-9704-4714-ac7e-6f176d9f76bb))
   )
 
-  (footprint "diy-nabra:R" (layer "F.Cu")
-    (tedit 0) (tstamp 83bbdb87-3dc1-40f5-bf5e-3bb0f8dfc548)
-    (at 42.0625 126.4375)
-    (attr through_hole)
-    (fp_text reference "REF**" (at 0 -0.5 unlocked) (layer "F.SilkS") hide
-      (effects (font (size 1 1) (thickness 0.15)))
-      (tstamp e6aac409-58bf-43b2-86dd-1f74ec69d2cb)
-    )
-    (fp_text value "R" (at 0 1 unlocked) (layer "F.Fab") hide
-      (effects (font (size 1 1) (thickness 0.15)))
-      (tstamp 511c005f-6dcf-423e-8a06-0c6d8e7135b5)
-    )
-    (fp_line (start 0.5 -2.5) (end 2.5 0) (layer "F.SilkS") (width 0.25) (tstamp 361f552e-b3b5-4c1d-86d6-43d53614453f))
-    (fp_line (start 2.5 -3) (end 2 -2.5) (layer "F.SilkS") (width 0.25) (tstamp 45ab6588-080b-44bd-a20f-3c136dd830f1))
-    (fp_line (start 2.5 -4.5) (end 2.5 -3) (layer "F.SilkS") (width 0.25) (tstamp 585012c5-c30d-48c0-b574-1cd2a355bb65))
-    (fp_line (start 0 -5) (end 2 -5) (layer "F.SilkS") (width 0.25) (tstamp 593560bd-4d6c-4fcf-a43c-41d22707600e))
-    (fp_line (start 2 -5) (end 2.5 -4.5) (layer "F.SilkS") (width 0.25) (tstamp 7bbdc5bd-fbcf-49ad-8c1d-18b9c16b619b))
-    (fp_line (start 2 -2.5) (end 0.5 -2.5) (layer "F.SilkS") (width 0.25) (tstamp b4a24207-4f42-47cf-a580-d115cf12cb67))
-    (fp_line (start 0 -5) (end 0 0) (layer "F.SilkS") (width 0.25) (tstamp e16e12e4-4474-4a08-adaf-2e0eeb929873))
-  )
-
   (footprint "diy-nabra:Star" (layer "F.Cu")
     (tedit 0) (tstamp 8655bdd2-c52b-4caf-8af9-5bf27583556a)
     (at 6.5 84.65)
@@ -291,52 +270,6 @@
     (fp_line (start 2.5 -0.5) (end 2.5 -2) (layer "F.SilkS") (width 0.25) (tstamp d628bd18-95ed-41eb-b4b4-f043ded47592))
   )
 
-  (footprint "diy-nabra:U" (layer "F.Cu")
-    (tedit 0) (tstamp 9182484b-068e-4ce4-bc1c-fd9c0d48bc42)
-    (at 30.0625 126.4375)
-    (attr through_hole)
-    (fp_text reference "REF**" (at 0 -0.5 unlocked) (layer "F.SilkS") hide
-      (effects (font (size 1 1) (thickness 0.15)))
-      (tstamp b3a1c996-2760-4a5d-a32d-31af1edb675a)
-    )
-    (fp_text value "U" (at 0 1 unlocked) (layer "F.Fab") hide
-      (effects (font (size 1 1) (thickness 0.15)))
-      (tstamp b8a187dc-08c1-47bd-93e6-f60c68141c13)
-    )
-    (fp_text user "${REFERENCE}" (at 0 2.5 unlocked) (layer "F.Fab") hide
-      (effects (font (size 1 1) (thickness 0.15)))
-      (tstamp 44968d71-f370-4aea-8a05-86e1f11b77c0)
-    )
-    (fp_line (start 2.5 0) (end 1 0) (layer "F.SilkS") (width 0.25) (tstamp 2a961c79-236b-4c50-8af0-de45bbb3d124))
-    (fp_line (start 1 0) (end 0 -1) (layer "F.SilkS") (width 0.25) (tstamp 3ae45cde-2f66-4648-86af-fdbb3e733a45))
-    (fp_line (start 2.5 -5) (end 2.5 0) (layer "F.SilkS") (width 0.25) (tstamp 5af25360-2780-44b0-bb33-51b7ffc33c8f))
-    (fp_line (start 0 -5) (end 0 -1) (layer "F.SilkS") (width 0.25) (tstamp 9498f1ae-3386-4d83-87c2-ea53dadab262))
-  )
-
-  (footprint "diy-nabra:E" (layer "F.Cu")
-    (tedit 0) (tstamp 91dda16f-f6ba-47f8-b9ff-bca5dbff204d)
-    (at 38.3125 126.4375)
-    (attr through_hole)
-    (fp_text reference "REF**" (at 0 -0.5 unlocked) (layer "F.SilkS") hide
-      (effects (font (size 1 1) (thickness 0.15)))
-      (tstamp a8249370-66a6-4cb0-9909-0e5a16887cb6)
-    )
-    (fp_text value "E" (at 0 1 unlocked) (layer "F.Fab") hide
-      (effects (font (size 1 1) (thickness 0.15)))
-      (tstamp 652c6842-347e-4901-affd-e00bf28b84c7)
-    )
-    (fp_text user "${REFERENCE}" (at 0 2.5 unlocked) (layer "F.Fab") hide
-      (effects (font (size 1 1) (thickness 0.15)))
-      (tstamp 724b965b-d9cf-4661-9265-9a22539b4d73)
-    )
-    (fp_line (start 0 -5) (end 0 0) (layer "F.SilkS") (width 0.25) (tstamp 182f5283-ea7a-4ceb-8037-13265709e6bf))
-    (fp_line (start 2 0) (end 2.5 0) (layer "F.SilkS") (width 0.25) (tstamp 1fe718b6-d5d9-4f6a-bb08-1cd784bbf9d6))
-    (fp_line (start 0 -5) (end 2 -5) (layer "F.SilkS") (width 0.25) (tstamp 6d33f9a0-5382-469d-ab4b-1fa6875f9bdd))
-    (fp_line (start 2 -2.5) (end 0 -2.5) (layer "F.SilkS") (width 0.25) (tstamp 8a73140c-9fba-4ac8-bd92-4be01af71307))
-    (fp_line (start 0 0) (end 2 0) (layer "F.SilkS") (width 0.25) (tstamp 973bc7aa-b1d2-4ca0-962a-af11e0584441))
-    (fp_line (start 2 -5) (end 2.5 -5) (layer "F.SilkS") (width 0.25) (tstamp dbd47384-e52c-42e4-90e5-a3624c0e5d4a))
-  )
-
   (footprint "diy-nabra:Vol" (layer "F.Cu")
     (tedit 0) (tstamp 95e9289c-4aa1-4786-a363-ca5c09414d2d)
     (at 22.5 52.25)
@@ -372,30 +305,6 @@
     (fp_line (start -1 -2.375) (end -1 2.125) (layer "F.SilkS") (width 0.5) (tstamp b3cd2555-d0dc-4bf7-ba6e-3df46436b38b))
     (fp_line (start -1 2.125) (end -4 0.0125) (layer "F.SilkS") (width 0.5) (tstamp da7e76d1-3cce-4ec2-bcfc-7c73a309dd07))
     (fp_line (start 1 -2.375) (end 4 0) (layer "F.SilkS") (width 0.5) (tstamp efa0b5dd-fae2-4f37-86f2-2228dd6f0e00))
-  )
-
-  (footprint "diy-nabra:B" (layer "F.Cu")
-    (tedit 0) (tstamp 9e539c59-6346-4901-bd6a-7dc90968b8dc)
-    (at 34.3125 126.4375)
-    (attr through_hole)
-    (fp_text reference "REF**" (at 0 -0.5 unlocked) (layer "F.SilkS") hide
-      (effects (font (size 1 1) (thickness 0.15)))
-      (tstamp 2f6c54ce-96a3-45fc-af26-e51da34ff8af)
-    )
-    (fp_text value "B" (at 0 1 unlocked) (layer "F.Fab") hide
-      (effects (font (size 1 1) (thickness 0.15)))
-      (tstamp 10567ef6-5d6c-4204-9c78-4e043ed6b1be)
-    )
-    (fp_line (start 2 -2.5) (end 0.5 -2.5) (layer "F.SilkS") (width 0.25) (tstamp 1ace960f-743d-4336-9cc3-ceb066bf1d33))
-    (fp_line (start 0 -5) (end 2 -5) (layer "F.SilkS") (width 0.25) (tstamp 419fd244-d44d-49e3-8e21-9ac7623a9cc0))
-    (fp_line (start 2 0) (end 2.5 -0.5) (layer "F.SilkS") (width 0.25) (tstamp 5b6c41c9-834f-4f98-8538-b5842425a2b3))
-    (fp_line (start 2 -5) (end 2.5 -4.5) (layer "F.SilkS") (width 0.25) (tstamp 62f3a1ec-ab57-4298-95f2-d6257c1f4a8e))
-    (fp_line (start 0 -5) (end 0 0) (layer "F.SilkS") (width 0.25) (tstamp 66f7278d-9166-450e-85a4-99ad54275601))
-    (fp_line (start 2.5 -4.5) (end 2.5 -3) (layer "F.SilkS") (width 0.25) (tstamp 887d568b-5bf2-47ac-9115-013da04c8703))
-    (fp_line (start 2.5 -0.5) (end 2.5 -2) (layer "F.SilkS") (width 0.25) (tstamp 8c6970c9-8528-4787-b893-5feacb6e1304))
-    (fp_line (start 2.5 -3) (end 2 -2.5) (layer "F.SilkS") (width 0.25) (tstamp d01a1cba-43b8-4b5a-9986-ca75404fad1e))
-    (fp_line (start 2.5 -2) (end 2 -2.5) (layer "F.SilkS") (width 0.25) (tstamp dda49b21-4dd3-4e8a-9d4a-85153c77233d))
-    (fp_line (start 0 0) (end 2 0) (layer "F.SilkS") (width 0.25) (tstamp df098ebb-6753-486b-9fca-3a569d753e07))
   )
 
   (footprint "diy-nabra:A" (layer "F.Cu")
@@ -488,30 +397,6 @@
     (fp_line (start 3.8125 -0.0625) (end 4.3125 -0.5625) (layer "F.SilkS") (width 0.25) (tstamp 9cf05b35-668e-4e1c-971f-999d17f0efd5))
     (fp_line (start 3.8125 -2.5625) (end 0.5625 -2.5625) (layer "F.SilkS") (width 0.25) (tstamp de56c570-97bb-4c63-ac96-e8cbc91649b5))
     (fp_line (start 3.0625 -0.0625) (end 3.8125 -0.0625) (layer "F.SilkS") (width 0.25) (tstamp e482d328-8e85-4308-9b34-a9cc0d5843cf))
-  )
-
-  (footprint "diy-nabra:D" (layer "F.Cu")
-    (tedit 0) (tstamp d751be33-bc96-4cde-8cd7-54ee5cf97ea0)
-    (at 26.0625 126.4375)
-    (attr through_hole)
-    (fp_text reference "REF**" (at 0 -0.5 unlocked) (layer "F.SilkS") hide
-      (effects (font (size 1 1) (thickness 0.15)))
-      (tstamp 861ec82d-ecec-477c-a740-15c1359301e6)
-    )
-    (fp_text value "D" (at 0 1 unlocked) (layer "F.Fab") hide
-      (effects (font (size 1 1) (thickness 0.15)))
-      (tstamp 84d6a668-3ab7-4114-a6f4-17bf6adbd7f1)
-    )
-    (fp_text user "${REFERENCE}" (at 0 2.5 unlocked) (layer "F.Fab") hide
-      (effects (font (size 1 1) (thickness 0.15)))
-      (tstamp 5d503f29-6d71-416f-9227-ed546a1b2d5e)
-    )
-    (fp_line (start 1.5 -5) (end 2.5 -4) (layer "F.SilkS") (width 0.25) (tstamp 57379d8b-9ba9-4f78-b326-15a774325f38))
-    (fp_line (start 0 -5) (end 1.5 -5) (layer "F.SilkS") (width 0.25) (tstamp 5a1a1700-5775-4688-9043-a2f31cf9d29b))
-    (fp_line (start 2.5 -4) (end 2.5 -1) (layer "F.SilkS") (width 0.25) (tstamp 770ed71c-2685-4a0d-83e2-deb19737add4))
-    (fp_line (start 1.5 0) (end 2.5 -1) (layer "F.SilkS") (width 0.25) (tstamp 7ddd6969-3662-4f1a-9c48-574d6cb570df))
-    (fp_line (start 0 -5) (end 0 0) (layer "F.SilkS") (width 0.25) (tstamp e2b0367e-ecc4-4e7d-994d-64faa25d2efd))
-    (fp_line (start 0 0) (end 1.5 0) (layer "F.SilkS") (width 0.25) (tstamp ea239748-3eba-4243-ab52-d1db3d3ba736))
   )
 
   (footprint "diy-nabra:QRes" (layer "F.Cu")
@@ -2349,25 +2234,7 @@
     (format (units 3) (units_format 1) (precision 4))
     (style (thickness 0.15) (arrow_length 1.27) (text_position_mode 0) (extension_height 0.58642) (extension_offset 0.5) keep_text_aligned)
   )
-  (dimension (type aligned) (layer "User.5") (tstamp 7cbd51b6-64a2-43f6-bb81-85ece85128b8)
-    (pts (xy 26.0625 126.4375) (xy 26.0625 128.5))
-    (height 2.0625)
-    (gr_text "2.0625 mm" (at 22.85 127.46875 90) (layer "User.5") (tstamp 7cbd51b6-64a2-43f6-bb81-85ece85128b8)
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (format (units 3) (units_format 1) (precision 4))
-    (style (thickness 0.1) (arrow_length 1.27) (text_position_mode 0) (extension_height 0.58642) (extension_offset 0.5) keep_text_aligned)
-  )
 
-  (group "" (id 0d563b23-814b-4728-b3a5-325349d469fb)
-    (members
-      83bbdb87-3dc1-40f5-bf5e-3bb0f8dfc548
-      9182484b-068e-4ce4-bc1c-fd9c0d48bc42
-      91dda16f-f6ba-47f8-b9ff-bca5dbff204d
-      9e539c59-6346-4901-bd6a-7dc90968b8dc
-      d751be33-bc96-4cde-8cd7-54ee5cf97ea0
-    )
-  )
   (group "" (id 641ec3e6-cd5f-4009-b963-b6bfa61a5a5c)
     (members
       004f8ca6-5cb1-437a-832b-ae0491cbfa62
