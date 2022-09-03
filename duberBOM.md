@@ -8,7 +8,8 @@ Solder the panel components (jacks and pots) last, on the opposite side of the b
 
 | Reference | Quantity | Part | Notes |
 |-----------|----------|------|-------|
-| R24,R25,R40,R41,R46,R47,R48,R49 | 8 | 10k | |
+| R46,R47,R48,R49 | 4 | 1k or 10k | Output resistor |
+| R24,R25,R40,R41 | 4 | 10k | |
 | R22,R23 | 2 | 100k | |
 | R8,R30 | 2 | 1M | |
 | R31,R32,R44,R45 | 4 | 22k | |
